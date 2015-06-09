@@ -1,4 +1,4 @@
-FROM boritzio/docker-cdh5-base
+FROM factual/docker-cdh5-base
 
 RUN apt-get install -y hadoop-hdfs-nfs3 ldap-auth-client nscd
 
